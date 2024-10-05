@@ -1,0 +1,3 @@
+import numpy as np
+
+def process(image: np.ndarray, iterations: int) -> np.ndarray: ...

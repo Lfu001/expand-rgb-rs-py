@@ -1,0 +1,13 @@
+[package]
+name = "expand_rgb"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "expand_rgb"
+crate-type = ["cdylib"]
+
+[dependencies]
+numpy = "0.21.0"
+pyo3 = "0.21.0"
+rand = "0.8.5"
